@@ -1,0 +1,11 @@
+SampleProj1:
+  name: Sample Project One
+  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes."
+  tags: ["Swift", "PKHud", "API", "Database"]
+  img: [assets/images/project-1.png]
+
+SampleProj2:
+  name: Sample Project Two
+  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
+  tags: ["Swift", "API", "Database"]
+  img: [assets/images/project-2.png]
