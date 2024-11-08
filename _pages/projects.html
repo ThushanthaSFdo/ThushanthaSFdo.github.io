@@ -1,8 +1,31 @@
 ---
 layout: default
-title: Projects done by Thushantha Fernando | iOS Developer
-description: A collection of all the proejcts done by Thushantha Fernando.
+title: Projects by Thushantha Fernando | iOS Developer
+description: A collection of all the projects built by Thushantha Fernando
+subtitle: A collection of all the proejcts done by me.
 permalink: /projects
 ---
 
-<h2 class="title">Projects</h2>
+<main>
+
+  <section id="projects">
+    <h2 class="title">Projects</h2>
+    <p class="section__text__p1">{{ page.subtitle }}</p>
+    
+    <div class="project-list">
+      {% for project in site.data.projects %} 
+        {% include project.html %} 
+      {% endfor %}
+    </div>
+    
+    <!-- <div class="flex justify-center">
+      <a
+        href="https://github.com/gouravkhunger"
+        target="_blank"
+        class="mt-10 px-3 py-2 link-button"
+      >
+        Visit my GitHub profile &gt;
+      </a>
+    </div> -->
+  </section>
+</main>

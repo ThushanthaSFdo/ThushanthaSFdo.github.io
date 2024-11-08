@@ -1,0 +1,20 @@
+<a href="/project/{{ project[0] }}" class="project-item">
+  <div class="project">
+    <span class="subtitle">{{ project[1].name }} &gt;</span>
+    <div class="article-container">
+      <img
+        src="{{ project[1].img }}"
+        alt="Project 1"
+        class="project-thumbnail"
+      />
+    </div>
+    <p class="desc_text"> 
+      {{ project[1].desc }}
+    </p>
+    <div class="tag-container">
+      {% for tag in project[1].tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</a>

@@ -10,9 +10,9 @@
     {% else %}
     <meta name="description" content="{{ site.description }}" />
     {% endif %}
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mediaqueries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Sen&amp;display=swap" rel="stylesheet">
@@ -24,6 +24,6 @@
 
     {% include footer.html %}
     
-    <script src="assets/js/script.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/script.js"></script>
   </body>
 </html>

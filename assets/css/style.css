@@ -338,6 +338,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  border: 1px solid;
 }
 
 .arrow {
@@ -419,9 +420,9 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 75%;
-  height: 75%;
+  border-radius: 0.9rem;
+  width: 65%;
+  height: auto;
   margin: 1rem;
 }
 
@@ -458,6 +459,7 @@ article .icon {
 .desc_text {
   color: rgba(100, 116, 139, 0.75);
   margin-top: 0.5rem;
+  text-align: justify;
 }
 
 .tag-container {
@@ -542,4 +544,25 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+/* PROJECT LIST SECTION */
+
+.project-list {
+  margin-top: 0.5rem;
+  
+}
+
+.project-list a {
+  margin: 1.5rem 0rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.project-thumbnail {
+  margin: 1rem;
+  border-radius: 0.9rem;
+  width: 80%;
+  height: auto;
 }
