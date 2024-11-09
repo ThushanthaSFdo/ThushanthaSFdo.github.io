@@ -1,12 +1,7 @@
 ---
-title: Project One
-description: This is a detailed description of Project One.
-technologies:
-  - HTML
-  - CSS
-  - JavaScript
-
+github: "gouravkhunger/ics-reader-plugin-example"
 hasThumbnail: true
+youtube: "V5Ly6T_bWwU"
 
 visit: 
   - anchorText: "Visit project website"

@@ -8,7 +8,6 @@
 }
 
 body {
-  /* font-family: "Poppins", sans-serif; */
   font-family: "Sen", sans-serif;
   background-color: rgb(248 250 252);
 }
@@ -546,12 +545,10 @@ footer p {
   text-align: center;
 }
 
-
 /* PROJECT LIST SECTION */
 
 .project-list {
   margin-top: 0.5rem;
-  
 }
 
 .project-list a {
@@ -565,4 +562,61 @@ footer p {
   border-radius: 0.9rem;
   width: 80%;
   height: auto;
+}
+
+/* PROJECT MAIN PAGE*/
+
+#projects-main {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.project-main-image {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  border-radius: 0.9rem;
+}
+
+.project-main-title {
+  margin: 1rem 0rem 1.5rem;
+  color: black;
+  text-align: left;
+  font-weight: 900;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.project-main-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+.other-content {
+  color: rgba(100, 116, 139, 1);
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+.project-desc_text {
+  color: rgba(100, 116, 139, 1);
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.other-content h1, .other-content h2, .other-content h3, .other-content h4, .other-content h5, .other-content h6, .other-content p:not(:last-child), .other-content ul, blockquote {
+  margin-bottom: 1.5rem;
+}
+
+.project-tag-container {
+  margin-top: 0.85rem;
+}
+
+.project-tag {
+  background-color: rgb(229 231 235);
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.25rem 0.375rem;
 }
