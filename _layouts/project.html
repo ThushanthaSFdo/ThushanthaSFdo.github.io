@@ -8,9 +8,14 @@ layout: default
     <h2 class="project-main-title">{{ project.name }}</h2>
     <!-- Page thumbnails/youtube/github -->
     {% if page.hasThumbnail %}
-    <img
+    <!-- <img
       loading="lazy"
       src="{{ site.baseurl }}/assets/images/projects/{{ page.name | remove: '.md' }}.png"
+      class="project-main-image"
+    /> -->
+    <img
+      loading="lazy"
+      src="{{ site.baseurl }}/assets/images/projects/catchfishy.png"
       class="project-main-image"
     />
     {% elsif page.youtube %}
