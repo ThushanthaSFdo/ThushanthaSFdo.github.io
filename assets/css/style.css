@@ -20,6 +20,7 @@ main {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   max-width: 85rem;
+  min-height: 80vh;
 }
 
 p {
@@ -218,7 +219,7 @@ section {
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 200;
-  text-align: left;
+  text-align: justify;
 }
 
 .section__redirect {
@@ -595,7 +596,7 @@ footer p {
 
 .other-content {
   color: rgba(100, 116, 139, 1);
-  margin-top: 1.5rem;
+  margin: 1rem 0rem 4.5rem;;
   text-align: justify;
 }
 

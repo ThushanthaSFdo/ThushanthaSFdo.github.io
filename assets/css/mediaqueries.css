@@ -96,7 +96,7 @@
   }
 
   .flex-item {
-    width: 100%;
+    width: fit-content;
     height: fit-content;
   }
 
