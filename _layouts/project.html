@@ -5,13 +5,12 @@ layout: default
 <main>
   <section id="projects-main">
     {% assign project = site.data.projects[page.slug] %}
-    <h2 class="project-main-title">{{ project.name }}</h2>
-    <h2 class="project-main-title">{{ page.name }} is the page name</h2>
+    <h2 class="project-main-title">{{ project.title }}</h2>
     <!-- Page thumbnails or youtube or github -->
     {% if page.hasThumbnail %}
     <img
       loading="lazy"
-      src="{{ site.baseurl }}/assets/images/projects/{{ page.name | remove: '.md' }}.png"
+      src="{{ site.baseurl }}/assets/images/projects/{{ project.name | remove: '.md' }}.png"
       class="project-main-image"
     />
     {% elsif page.youtube %}

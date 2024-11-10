@@ -1,101 +1,118 @@
 my-hr:
-  name: My HR App
+  title: My HR App
+  name: my-hr
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes."
   tags: ["Swift", "PKHud", "API", "Database"]
   img: assets/images/project-1.png
 
 galaxy-saga:
-  name: Galaxy Sage
+  title: Galaxy Sage
+  name: galaxy-saga
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-2.png
 
 catchfishy:
-  name: Catch Fishy
+  title: Catch Fishy
+  name: catchfishy
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-2.png
 
 tic-tac-toe:
-  name: Tic Tac Toe
+  title: Tic Tac Toe
+  name: my-hr
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-1.png
 
 pkplus:
-  name: PKPlus
+  title: PKPlus
+  name: pkplus
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-2.png
 
 mchat:
-  name: MChat
+  title: MChat
+  name: mchat
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 labyl:
-  name: Labyl
+  title: Labyl
+  name: labyl
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 willows:
-  name: Willows AMS
+  title: Willows AMS
+  name: willows
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 bloom:
-  name: Bloom
+  title: Bloom
+  name: bloom
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 ehanu:
-  name: eHanu
+  title: eHanu
+  name: ehanu
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 textrecon:
-  name: TextRecon
+  title: TextRecon
+  name: textrecon
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 scientists:
-  name: Scientists
+  title: Scientists
+  name: scientists
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 github-replica:
-  name: Github Replica
+  title: Github Replica
+  name: github-replica
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 clothing-store:
-  name: Clothing Store
+  title: Clothing Store
+  name: clothing-store
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 uikit-dashboard:
-  name: UIKit Dashboard
+  title: UIKit Dashboard
+  name: uikit-dashboard
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 jafro-homes:
-  name: Jafro Homes
+  title: Jafro Homes
+  name: jafro-homes
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
 
 movie-mania:
-  name: Movie Mania
+  title: Movie Mania
+  name: movie-mania
   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
   tags: ["Swift", "API", "Database"]
   img: assets/images/project-3.png
