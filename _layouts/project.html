@@ -6,6 +6,7 @@ layout: default
   <section id="projects-main">
     {% assign project = site.data.projects[page.slug] %}
     <h2 class="project-main-title">{{ project.name }}</h2>
+    <h2 class="project-main-title">{{ page.name }} is the page name</h2>
     <!-- Page thumbnails or youtube or github -->
     {% if page.hasThumbnail %}
     <img
