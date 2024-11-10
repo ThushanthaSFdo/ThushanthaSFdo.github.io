@@ -654,30 +654,42 @@ blockquote {
   padding: 0.25rem 0.375rem;
 }
 
-
 /* ARTICLES SECTION */
 
 #articles {
   position: relative;
 }
 
-.article-list{
+.article-list {
   margin-top: 1.75rem;
   display: grid;
   gap: 1rem;
 }
 
-.article-list a{
+.article-list a {
   text-decoration: none;
 }
 
 .article-box {
-  margin-left: .5rem;
-  margin-right: .5rem;
   padding: 1rem;
 }
 
 .article-desc-text {
+  color: rgba(100, 116, 139, 0.8);
+  margin: 0.5rem 0rem;
+  text-align: justify;
+}
+
+.article-date {
+  background-color: white;
+  border-radius: 0.375rem;
+  font-size: 0.9rem;
+  line-height: 1.75rem;
+  padding: 0.25rem 0.25rem;
+  border: rgb(229 231 235) solid 2px;
+}
+
+.article-readmore {
   color: rgba(100, 116, 139, 0.8);
   margin: 0.5rem 0rem;
   text-align: justify;

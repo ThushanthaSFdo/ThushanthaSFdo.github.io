@@ -1,9 +1,9 @@
 <a href="{{ article[1].baseurl }}" target="_blank" class="article-box">
   <div>
     <span class="subtitle">{{ article[1].name }}</span>
+    <span class="article-date"> {{ article[1].published_date | date: '%b %d, %Y' }} </span>
     <p class="article-desc-text">{{ article[1].desc }}</p>
-    <span class="tag"> {{ article[1].date | date: '%b %d, %Y' }} </span>
-    <p class="article-desc-text">
+    <p class="article-readmore">
       Read More &gt;
     </p>
   </div>

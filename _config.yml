@@ -10,18 +10,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 collections:
-  posts:
-    output: true
-    permalink: /post/:title
   projects:
     output: true
     permalink: /project/:name
 
 defaults:
-  - scope:
-      path: "_posts/**/*.md"
-    values:
-      layout: post
   - scope:
       path: "_projects/*.md"
     values:

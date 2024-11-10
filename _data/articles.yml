@@ -1,47 +1,47 @@
-abstraction-in-oop:
-  date: 2021-11-15
-  name: "Abstraction in OOP"
-  desc: "In this tutorial I explain how to use maths to build a swipe to refresh logic for cards in Android."
-  baseurl: "https://www.freecodecamp.org/news"
-
-eat-that-frog—productivity-technique:
-  date: 2022-02-10
-  name: "Eat That Frog — Productivity Technique"
-  desc: "This is the issue #1 in the Genics log series containing all the latest news and updates on genics blog's in the month of January 2022!"
-  baseurl: "https://genicsblog.com"
-
 memory-management-technique-in-swift-arc:
-  date: 2022-06-17
+  published_date: "2024-10-16"
   name: "Memory Management Technique in Swift — ARC"
-  desc: "The article provides a comprehensive overview of Automatic Reference Counting (ARC) in Swift and Objective-C, detailing its memory management capabilities and the types of references used to prevent memory leaks."
+  desc: "The article provides a comprehensive overview of Automatic Reference Counting (ARC) in Swift and Objective-C detailing its memory management capabilities and the types of references used to prevent memory leaks."
   baseurl: "https://medium.com/@thushfdo/memory-management-technique-in-swift-arc-96946d58d71d"
 
-genics-log-2:
-  date: 2022-06-17
-  name: "Property Observers in Swift"
-  desc: "This is the issue #2 in the Genics log series containing all the latest news and updates on genics blog's changes from the recent months!"
-  baseurl: "https://genicsblog.com"
+abstraction-in-oop:
+  published_date: "2024-10-11"
+  name: "Abstraction in OOP"
+  desc: "The article discuss about abstraction in Object-Oriented Programming (OOP) emphasizing its significance in managing complexity and enhancing usability. It describes the definition of the abstration, mechanisms for achieving abstraction, abstraction in Swift, comparison of Abstract Classes vs Interfaces and pros & cons of it."
+  baseurl: "https://medium.com/@thushfdo/abstraction-in-oop-f481ac388f84"
 
-genics-log-2:
-  date: 2022-06-17
-  name: "Property Observers in Swift"
-  desc: "This is the issue #2 in the Genics log series containing all the latest news and updates on genics blog's changes from the recent months!"
-  baseurl: "https://genicsblog.com"
+eat-that-frog—productivity-technique:
+  published_date: "2024-10-09"
+  name: "Eat That Frog — Productivity Technique"
+  desc: "The “Eat That Frog” technique, developed by productivity expert Brian Tracy, is a time management strategy that emphasizes tackling the most challenging or important tasks at the beginning of the day. This method is particularly beneficial for individuals who struggle with procrastination or task prioritization."
+  baseurl: "https://medium.com/@thushfdo/eat-that-frog-productivity-technique-15024eee0dbd"
 
-genics-log-2:
-  date: 2022-06-17
+property-observers-in-swift:
+  published_date: "2024-10-09"
   name: "Property Observers in Swift"
-  desc: "This is the issue #2 in the Genics log series containing all the latest news and updates on genics blog's changes from the recent months!"
-  baseurl: "https://genicsblog.com"
+  desc: "Property observers in Swift allow developers to observe and respond to changes in a property's value using two main types. This article focus on the observers, their powerful mechanism and the common use cases."
+  baseurl: "https://medium.com/@thushfdo/property-observers-in-swift-c5d6fadae7a3"
 
-genics-log-2:
-  date: 2022-06-17
-  name: "Property Observers in Swift"
-  desc: "This is the issue #2 in the Genics log series containing all the latest news and updates on genics blog's changes from the recent months!"
-  baseurl: "https://genicsblog.com"
+mvc-mvvm-and-viper-in-swift:
+  published_date: "2024-09-22"
+  name: "MVC, MVVM and VIPER in Swift"
+  desc: "This article discusses about the three primary architectures used in Swift development; Model-View-Controller (MVC), Model-View-ViewModel (MVVM) and VIPER. When developing iOS applications, choosing the right architectural design is crucial for ensuring robust, scalable and maintainable code."
+  baseurl: "https://medium.com/@thushfdo/mvc-mvvm-and-viper-in-swift-4a350826f9ab"
 
-genics-log-2:
-  date: 2022-06-17
-  name: "Property Observers in Swift"
-  desc: "This is the issue #2 in the Genics log series containing all the latest news and updates on genics blog's changes from the recent months!"
-  baseurl: "https://genicsblog.com"
+architecture-in-software-development:
+  published_date: "2024-09-19"
+  name: "Architecture in Software Development"
+  desc: "The article explains software architecture as the high-level structure of software systems, comprising design decisions that shape the entire system and address non-functional requirements. It discusses architectural patterns, which provide conceptual frameworks for system visualization, and introduces the Gang of Four (GoF) design patterns. The article also contrasts GoF patterns with UI patterns like MVVM and MVC."
+  baseurl: "https://medium.com/@thushfdo/architecture-in-software-development-7c87bdef1cef"
+
+sfsymbols-with-uikit-in-swift:
+  published_date: "2024-09-07"
+  name: "SF Symbols with UIKit in Swift"
+  desc: "SF Symbols is Apple's symbol library containing over 6,000 icons that integrate with the San Francisco system font, introduced at WWDC 2019. The library is designed to provide consistent, scalable and accessible symbols across Apple's ecosystem while maintaining visual harmony with the system font. Read about SF Symbols here."
+  baseurl: "https://medium.com/@thushfdo/sf-symbols-with-uikit-in-swift-ac7f50c15a49"
+
+combine-sfsymbols-with-fonts-ins-wift-development:
+  published_date: "2024-09-06"
+  name: "Combine SF Symbols with Fonts in Swift Development"
+  desc: "This article is more closer to the development with SF Symbols in Swift. It explains the usage with different examples along with weight and scales of the same. Read it to find out the reasons behind the introduction and usage of this amazing library by Apple."
+  baseurl: "https://medium.com/@thushfdo/combine-sf-symbols-and-images-with-fonts-in-swift-development-19a33f074a8c"

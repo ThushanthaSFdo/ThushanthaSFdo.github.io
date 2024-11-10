@@ -14,8 +14,10 @@ permalink: /articles
 
     <div class="article-list">
       <!-- sort based on date parameter in the hash -->
-      {% assign articles = site.data.articles | custom_sort %} {% for article in
-      articles %} {% include article.html %} {% endfor %}
+      {% assign articles = site.data.articles %} 
+      {% for article in articles %} 
+        {% include article.html %} 
+      {% endfor %}
     </div>
   </section>
 </main>
