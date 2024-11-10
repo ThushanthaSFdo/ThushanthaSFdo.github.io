@@ -420,7 +420,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 0.9rem;
+  border-radius: 0.5rem;
   width: 65%;
   height: auto;
   margin: 1rem;
@@ -589,6 +589,31 @@ footer p {
   line-height: 2.25rem;
 }
 
+.project-main-home {
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  background-color: white;
+  color: white;
+  border: white solid 2px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.floatingImg {
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  display: block;
+}
+
 .project-main-btn {
   color: black;
   border-color: rgb(163, 163, 163);
@@ -596,7 +621,7 @@ footer p {
 
 .other-content {
   color: rgba(100, 116, 139, 1);
-  margin: 1rem 0rem 4.5rem;;
+  margin: 1rem 0rem 4.5rem;
   text-align: justify;
 }
 
@@ -606,7 +631,15 @@ footer p {
   text-align: justify;
 }
 
-.other-content h1, .other-content h2, .other-content h3, .other-content h4, .other-content h5, .other-content h6, .other-content p:not(:last-child), .other-content ul, blockquote {
+.other-content h1,
+.other-content h2,
+.other-content h3,
+.other-content h4,
+.other-content h5,
+.other-content h6,
+.other-content p:not(:last-child),
+.other-content ul,
+blockquote {
   margin-bottom: 1.5rem;
 }
 

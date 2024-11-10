@@ -6,6 +6,13 @@ layout: default
   <section id="projects-main">
     {% assign project = site.data.projects[page.slug] %}
     <h2 class="project-main-title">{{ project.title }}</h2>
+
+    <div class="project-main-home">
+      <a href="/projects">
+        <img class="floatingImg" src="{{ site.baseurl }}/assets/images/home.png"/>
+      </a>
+    </div>
+
     <!-- Page thumbnails or youtube or github -->
     {% if page.hasThumbnail %}
     <img
@@ -42,10 +49,7 @@ layout: default
     {% if page.visit %}
     <div class="section__redirect">
       {% for item in page.visit %}
-      <a
-        href="{{ item.link }}"
-        class="redirect-button"
-      >
+      <a href="{{ item.link }}" class="redirect-button">
         {{ item.anchorText }} &gt;
       </a>
       {% endfor %}

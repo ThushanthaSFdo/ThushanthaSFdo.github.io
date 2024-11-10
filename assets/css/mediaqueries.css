@@ -101,9 +101,9 @@
   }
 
   .project-img {
-    border-radius: 2rem;
-    width: 35%;
-    height: 35%;
+    border-radius: 0.5rem;
+    width: 70%;
+    height: auto;
     margin: 1rem;
   }
 
