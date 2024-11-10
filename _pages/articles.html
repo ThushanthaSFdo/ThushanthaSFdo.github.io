@@ -1,8 +1,21 @@
 ---
 layout: default
 title: Articles Thushantha Fernando | iOS Developer
-description: A collection of all the articles written by Thushantha Fernando.
+description: A collection of all the projects built by Thushantha Fernando
+subtitle: A collection of all the articles written by me.
 permalink: /articles
 ---
 
-<h2 class="title">Articles</h2>
+<main>
+  <section id="articles">
+    <h2 class="title">Articles</h2>
+
+    <p class="section__text__p1">{{ page.subtitle }}</p>
+
+    <div class="article-list">
+      <!-- sort based on date parameter in the hash -->
+      {% assign articles = site.data.articles | custom_sort %} {% for article in
+      articles %} {% include article.html %} {% endfor %}
+    </div>
+  </section>
+</main>

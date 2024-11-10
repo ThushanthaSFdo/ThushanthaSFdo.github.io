@@ -1,0 +1,10 @@
+<a href="{{ article[1].baseurl }}/{{ article[0] }}" target="_blank" class="article-box">
+  <div>
+    <span class="subtitle">{{ article[1].name }}</span>
+    <p class="article-desc-text">{{ article[1].desc }}</p>
+    <span class="tag"> {{ article[1].date | date: '%b %d, %Y' }} </span>
+    <p class="article-desc-text">
+      Read More &gt;
+    </p>
+  </div>
+</a>
