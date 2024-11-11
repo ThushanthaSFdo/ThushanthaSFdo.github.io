@@ -1,0 +1,27 @@
+- company:
+    name: "Ontash Systems Inc"
+    url: ""
+    description: "A strategic partner in software solutions, specializing in custom applications and data analytics. With over 20 years of experience, they deliver tailored products for diverse industries, enhancing efficiency and productivity for their clients."
+  positions:
+    - name: "Lead - Mobile Development"
+      tenure: "May 2023 - Present"
+    - name: "Sr Software Engineer - Mobile Development"
+      tenure: "February 2018 – September 2022"
+    - name: "Software Engineer - Mobile Development"
+      tenure: "February 2016 – February 2018"
+      
+- company:
+    name: "Freelance"
+    url: ""
+    description: "As a freelance iOS developer, I specialize in creating innovative applications tailored for the clients requirements. With expertise in Swift and Objective-C, I deliver high-quality, user-friendly solutions that enhance functionality and user experience across various industries."
+  positions:
+    - name: "iOS Developer"
+      tenure: "December 2022 – Present"
+      
+- company:
+    name: "Bamboo Technology DMCC"
+    url: ""
+    description: "A premier software services company specializing in IT outsourcing, software development and mobile development. With a strong focus on logistics, retail and gaming they deliver innovative solutions to global clients, enhancing operational efficiency and competitive advantage."
+  positions:
+    - name: "iOS Engineer"
+      tenure: "September 2022 – April 2023"

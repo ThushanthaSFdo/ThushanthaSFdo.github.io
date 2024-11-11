@@ -322,7 +322,6 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
@@ -366,6 +365,14 @@ section {
   height: 10rem;
   width: 10rem;
   margin: 30px 0px;
+}
+
+.skill-tag {
+  background-color: rgb(229 231 235);
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  line-height: 1.65rem;
+  padding: 0.25rem 0.375rem;
 }
 
 /* EXPERIENCE SECTION */
@@ -420,7 +427,7 @@ article .icon {
 
 .project-img {
   border-radius: 0.5rem;
-  width: 65%;
+  width: 80%;
   height: auto;
   margin: 1rem;
 }
@@ -560,7 +567,7 @@ footer p {
 .project-thumbnail {
   margin: 1rem;
   border-radius: 0.9rem;
-  width: 80%;
+  width: 85%;
   height: auto;
 }
 
@@ -693,4 +700,115 @@ blockquote {
   color: rgba(100, 116, 139, 0.8);
   margin: 0.5rem 0rem;
   text-align: justify;
+}
+
+
+
+/* EXPERIENCE SECTION */
+
+.exp-page {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 2em;
+  color: #222222;
+  font-size: 1em;
+}
+
+.exp-secondaryHeading {
+  position: relative;
+  margin: 1em 0 0;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: #195cc8;
+}
+
+.exp-secondaryHeading::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background-color: #111;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.exp-grid {
+  display: table;
+}
+
+.exp-grid-column {
+  display: table-cell;
+}
+
+.exp-timeline {
+  position: relative;
+  margin: 0 0 0 0.5em;
+  padding-left: 2.5em;
+  border-left: solid 1px #a1b2b1;
+}
+
+.exp-timeline:first-of-type {
+  margin-top: 0.2rem;
+}
+
+.exp-timeline:last-of-type {
+  border-left-color: transparent;
+}
+
+.exp-timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -0.5em;
+  display: block;
+  width: 1em;
+  height: 1em;
+  border: solid 1px #222222;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.exp-timeline-heading {
+  margin: 0;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  font-weight: normal;
+  -webkit-transform: translateY(-0.1em);
+  -ms-transform: translateY(-0.1em);
+  transform: translateY(-0.1em);
+}
+
+.exp-timeline-heading-title {
+  line-height: 1.5rem;
+}
+
+.exp-timeline-heading-duration {
+  display: block;
+  font-size: 0.7em;
+  background: none;
+  -webkit-text-fill-color: #6f6f6f;
+  -webkit-background-clip: text;
+}
+
+.exp-timeline-details {
+  display: block;
+  margin: 0;
+  padding-bottom: 2em;
+  list-style-type: disc;
+  font-size: 12px;
+}
+
+.exp-timeline-details p {
+  color: black;
+}
+
+.exp-timeline-details-item,
+.exp-job-timeline-item {
+  margin-bottom: 0.3em;
 }
