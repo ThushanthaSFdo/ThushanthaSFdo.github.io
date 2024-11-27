@@ -52,7 +52,7 @@ bloom:
   name: bloom
   desc: "Bloom is a comprehensive student and institute management system designed for a leading educational institute in Sri Lanka, serving over 5,000 users monthly. It facilitates class notifications, fee submissions, and access to live classes, enhancing the academic experience for students."
   tags: ["Swift", "API", "Alamofire", "Firebase", "APN", "CalendarKit", "EventKit", "AVKit", "AVFoundation"]
-  img: assets/images/projectS/bloom.png
+  img: assets/images/projects/bloom.png
 
 ehanu:
   title: eHanu
