@@ -1,28 +1,18 @@
 ---
-github: "gouravkhunger/ics-reader-plugin-example"
 hasThumbnail: true
-youtube: "V5Ly6T_bWwU"
 
 visit: 
-  - anchorText: "Visit project website"
-    link: "https://genicsblog.com"
+  - anchorText: "Live Simulation"
+    link: "https://drive.google.com/file/d/1PvkSW6chNNz9z7cFWZMHBXelLScauKVq/view"
 
   - anchorText: "View on GitHub"
-    link: "https://github.com/genicsblog"
+    link: "https://github.com/ThushanthaSFdo/CatchFishy"
 ---
 
 ## Background
 
-I've been trying out different blogging platforms from quite a while now. I started out with WordPress, trying dev.to, medium, hashnode alongside. But well nothing suited me.
-
-WordPress was slow even with decent hosting plans, but had a recurring cost which didn't provide enough value for investment. dev.to's primary focus wasn't technical writing, they allow everything: discussions, cross-postings, articles so things seemed cluttered.
-
-## Current stats
-
-The blog is [open source](https://github.com/genicsblog) at heart. And this transparency has lead to a lot of growth, from 200 monthly readers to 700+ within 3 months.
-
-We primarily rely on organic traffic, which constitutes almost half of the total traffic.
+This 2D fish-catching game was developed using Swift UIKit combined with SpriteKit and GameplayKit to create an engaging and interactive experience. Players have 30 seconds to catch as many fish as possible, earning points for each catch while avoiding harmful bones that deduct points. The game currently lacks stages but allows players to save their game history for future reference.
 
 ## The future
 
-Currently, we are focused on publishing a lot quality content (the reason each submission is reviewed twice before being published).This sets up a solid base for the future. We plan to grow our userbase and keep providing value through content!
+Future updates will introduce three gameplay modes: easy, medium, and hard, catering to different skill levels and enhancing replayability. We plan to implement stage-based challenges to keep players engaged and motivated. Additionally, we will enhance the scoring system to save and display the highest scores, fostering competition among players. Regular updates will also include new fish types and dynamic environments to enrich the gaming experience.

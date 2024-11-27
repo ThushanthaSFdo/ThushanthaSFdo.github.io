@@ -242,7 +242,7 @@ section {
   transition-duration: 0.1s;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 .title {
@@ -644,9 +644,13 @@ footer p {
 .other-content h5,
 .other-content h6,
 .other-content p:not(:last-child),
-.other-content ul,
 blockquote {
   margin-bottom: 1.5rem;
+}
+
+.other-content ul {
+  color: rgb(85, 85, 85);
+  margin: 1.5rem;
 }
 
 .project-tag-container {
@@ -701,8 +705,6 @@ blockquote {
   margin: 0.5rem 0rem;
   text-align: justify;
 }
-
-
 
 /* EXPERIENCE SECTION */
 

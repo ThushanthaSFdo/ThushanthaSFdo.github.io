@@ -20,6 +20,12 @@ layout: default
       src="{{ site.baseurl }}/assets/images/projects/{{ project.name | remove: '.md' }}.png"
       class="project-main-image"
     />
+    
+    <!-- page carousel -->
+    {% elsif page.carousels %}
+
+    {% include carousel.html height="50" unit="%" duration="4" number="1" %}
+
     {% elsif page.youtube %}
     <iframe
       src="https://www.youtube.com/embed/{{ page.youtube }}"
@@ -28,8 +34,17 @@ layout: default
       loading="lazy"
     >
     </iframe>
-    {% elsif page.github %} {% assign image = page.github | prepend:
-    "https://opengraph.githubassets.com/$/" | hashsert %}
+
+    {% elsif page.youtube %}
+    <iframe
+      src="https://www.youtube.com/embed/{{ page.youtube }}"
+      class="w-full aspect-video rounded-xl"
+      allowfullscreen
+      loading="lazy"
+    >
+    </iframe>
+    {% elsif page.github %} 
+    {% assign image = page.github | prepend: "https://opengraph.githubassets.com/$/" | hashsert %}
     <img
       loading="lazy"
       src="{{ image }}"
@@ -54,7 +69,9 @@ layout: default
       </a>
       {% endfor %}
     </div>
-    {% endif %} {% assign content = page.content | strip_newlines %} {% if
+    {% endif %} 
+
+    {% assign content = page.content | strip_newlines %} {% if
     content != "" %}
     <div class="other-content">{{ page.content }}</div>
     {% endif %}
