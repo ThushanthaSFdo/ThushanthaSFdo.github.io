@@ -1,3 +1,40 @@
+
+thread-safety-and-dispatch-barriers-in-swift:
+  published_date: "2025-03-30"
+  name: "Thread Safety and Dispatch Barriers in Swift"
+  desc: "Managing thread safety in Swift is essential for building reliable applications. Using dispatch barriers allows developers to control access to shared resources effectively while maintaining performance."
+  baseurl: "https://medium.com/@thushfdo/thread-safety-and-dispatch-barriers-in-swift-4bcea5bac360"
+
+get-started-with-dotnet-maui-for-mobile-development-in-mac:
+  published_date: "2025-03-29"
+  name: "Get Started With .NET MAUI for Mobile Development in Mac"
+  desc: "This article guides beginners on using .NET MAUI for mobile development on a Mac. It covers installing the .NET SDK, VS Code, MAUI workload, and Xcode. It emphasizes setting up the environment for cross-platform app creation using C# and XAML."
+  baseurl: "https://medium.com/@thushfdo/get-started-with-net-maui-for-mobile-development-in-mac-61f3aa1b45ee"
+
+dispatch-group-and-dispatch-work-item-in-swift:
+  published_date: "2025-03-29"
+  name: "Dispatch Group and Dispatch Work Item in Swift"
+  desc: "Dispatch Groups and Dispatch Work Items in Swift streamline concurrency management, simplify workflows, enhance app responsiveness, and ensure reliable asynchronous execution."
+  baseurl: "https://medium.com/@thushfdo/dispatch-group-and-dispatch-work-item-in-swift-4872dae0e893"
+
+target-queues-and-their-behaviour-in-swift:
+  published_date: "2025-03-04"
+  name: "Target Queues and Their Behaviour in Swift"
+  desc: "Target queues in Swift enable efficient task execution by specifying underlying queues for resource management and prioritization, maintaining flexibility in application design while optimizing system performance"
+  baseurl: "https://medium.com/@thushfdo/target-queues-and-their-behavior-in-swift-bde40cd5591c"  
+
+efficient-task-management-with-dispatch-queues-in-swift:
+  published_date: "2025-02-10"
+  name: "Efficient Task Management with Dispatch Queues in Swift"
+  desc: "Efficient task management in Swift uses Dispatch Queues to execute tasks asynchronously or concurrently. Developers optimize performance by leveraging serial/concurrent queues, Quality of Service (QoS), and global concurrent queues."
+  baseurl: "https://medium.com/@thushfdo/efficient-task-management-with-dispatch-queues-in-swift-28c5ec8bed95"
+
+concurrency-in-swift-guide-to-efficient-programming:
+  published_date: "2024-12-08"
+  name: "Concurrency in Swift: Guide to Efficient Programming"
+  desc: "Concurrency enables systems to manage multiple tasks simultaneously, improving performance and responsiveness. Swift achieves this through structured concurrency, async/await syntax, Grand Central Dispatch, and Operation Queues for efficient task management"
+  baseurl: "https://medium.com/@thushfdo/concurrency-in-swift-guide-to-efficient-programming-99acbba7a317"
+
 memory-management-technique-in-swift-arc:
   published_date: "2024-10-16"
   name: "Memory Management Technique in Swift — ARC"

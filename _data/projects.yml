@@ -4,6 +4,7 @@ my-hr:
   desc: "Streamline the day to day HR management with this app designed for mid-range companies. Stay updated on announcements, track leave balances, monitor time and manage employee interactions effortlessly. With formal request forms and real-time notifications, enhance communication and efficiency within your organization."
   tags: ["Swift", "SQLite", "API", "Push Notification"]
   img: assets/images/projects/my_hr_1.png
+  status: "Active"
 
 clothing-store:
   title: Clothing Store
@@ -11,6 +12,7 @@ clothing-store:
   desc: "Discover the latest trends and popular styles with our Swift UIKit clothing app. Effortlessly browse, save favorites for future purchases and manage your cart. Enjoy a seamless payment experience while tracking your current and past orders in the profile section. Elevate your shopping experience."
   tags: ["Swift", "API", "BraintreeDropIn", "SQLite", "UserDefaults"]
   img: assets/images/projects/clothing-store.png
+  status: "Active"
 
 jafro-homes:
   title: Jafro Homes
@@ -18,20 +20,23 @@ jafro-homes:
   desc: "The RealEstate application is a white-labeled platform designed to help users locate apartments, condos, and commercial spaces for rent or purchase in Indonesia. With plans for future expansion into Sri Lanka, India, Singapore, the UAE, France, and the USA, the app provides features such as agent profiles for managing listings and advanced search options based on location and lease start dates."
   tags: ["Swift", "API", "SQLite", "UserDefaults"]
   img: assets/images/projects/jafro_homes_1.png
+  status: "Active"
 
-pkplus:
-  title: PKPlus
-  name: pkplus
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-2.png
+# pkplus:
+#   title: PKPlus
+#   name: pkplus
+#   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
+#   tags: ["Swift", "API", "Database"]
+#   img: assets/images/project-2.png
+#   status: "Active"
 
-mchat:
-  title: MChat
-  name: mchat
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-3.png
+# mchat:
+#   title: MChat
+#   name: mchat
+#   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
+#   tags: ["Swift", "API", "Database"]
+#   img: assets/images/project-3.png
+#   status: "Active"
 
 labyl:
   title: Labyl
@@ -39,6 +44,7 @@ labyl:
   desc: "LABYL (Learn About Buildings You Love) is an innovative architectural app that allows users to identify and explore buildings by simply taking a photo. With a database of over 500 structures, it provides historical insights, architectural details, and external resources, making New York's architecture accessible to everyone."
   tags: ["Swift", "API", "UserDefaults"]
   img: assets/images/projects/labyl.png
+  status: "Active"
 
 willows:
   title: Willows AMS
@@ -46,6 +52,7 @@ willows:
   desc: "Willows is a secure, cloud-hosted mobile app that enhances communication between property owners, managers, and tenants. It facilitates efficient management of daily activities, including rent collection and service requests, while providing a clear channel for notifications and complaints."
   tags: ["Swift", "API", "Database"]
   img: assets/images/projects/willows.png
+  status: "Active"
 
 bloom:
   title: Bloom
@@ -53,6 +60,7 @@ bloom:
   desc: "Bloom is a comprehensive student and institute management system designed for a leading educational institute in Sri Lanka, serving over 5,000 users monthly. It facilitates class notifications, fee submissions, and access to live classes, enhancing the academic experience for students."
   tags: ["Swift", "API", "Alamofire", "Firebase", "APN", "CalendarKit", "EventKit", "AVKit", "AVFoundation"]
   img: assets/images/projects/bloom.png
+  status: "Active"
 
 ehanu:
   title: eHanu
@@ -60,20 +68,23 @@ ehanu:
   desc: "The app streamlines the prescription process by allowing doctors to create electronic prescriptions that patients can easily send to their preferred pharmacies. With features for partial medicine fulfillment and comprehensive prescription history, we enhance patient care and pharmacy communication, ensuring a seamless healthcare experience."
   tags: ["Swift", "API", "SQLite"]
   img: assets/images/projects/ehanu.png
+  status: "Active"
 
 github-replica:
   title: Github Replica
   name: github-replica
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-3.png
+  desc: "This project showcases the fundamentals of Swift UIKit development, featuring a fully programmatic UI. It includes network calls to retrieve and display JSON data, image caching, pagination, and custom alerts. Enhanced with collection views and search controllers, it offers a dynamic user experience with UITableViewDiffableDataSource."
+  tags: ["Swift", "API", "UICollectionViewDiffableDataSource", "UserDefaults", "NSCache"]
+  img: assets/images/projects/github-replica.png
+  status: "Active"
 
 uikit-dashboard:
   title: UIKit Dashboard
   name: uikit-dashboard
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-3.png
+  desc: "This reference project showcases various approaches to creating UITableViews and UICollectionViews in Swift. It features diverse cell layouts and demonstrates multiple techniques for implementing UIFlowLayout, catering to different design requirements. Ideal for developers seeking to enhance their understanding of dynamic UI components in iOS development."
+  tags: ["Swift", "UICollectionView", "UITableView", "UICollectionReusableView", "UITableViewHeaderFooterView", "UICollectionViewFlowLayout"]
+  img: assets/images/projects/uikit-dashboard.png
+  status: "Active"
 
 textrecon:
   title: TextRecon
@@ -81,39 +92,45 @@ textrecon:
   desc: "This project provides an efficient solution for converting text from captured images or those stored in the device gallery, achieving accuracy rates between 85% and 100%. Currently supporting only English characters, it streamlines text extraction for various applications."
   tags: ["Swift", "VisionKit", "VNImageHandler"]
   img: assets/images/projects/textrecon.png
+  status: "Active"
 
 galaxy-saga:
-  title: Galaxy Sage
+  title: Galaxy Saga
   name: galaxy-saga
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-2.png
+  desc: "Embark on an exhilarating journey through the cosmos in this single-player space shooter game! Navigate your ship, battle fierce enemies, and collect power-ups to boost your score, energy, and health. Can you survive the galactic onslaught and emerge as the ultimate space champion?"
+  tags: ["Swift", "UIKit", "SpriteKit", "GameplayKit"]
+  img: assets/images/projects/galaxy-saga.png
+  status: "Active"
 
 catchfishy:
   title: Catch Fishy
   name: catchfishy
-  desc: "Dive into our exciting 2D fish-catching game, built with Swift UIKit, SpriteKit, and GameplayKit! Compete for points by catching fish while avoiding bones. Experience the thrill of fishing like never before!"
+  desc: "Dive into this exciting 2D fish-catching game, built with Swift! Compete for points by catching fish while avoiding bones. Experience the thrill of fishing like never before!"
   tags: ["Swift", "UIKit", "SpriteKit", "GameplayKit"]
   img: assets/images/projects/catchfishy.png
+  status: "Pause"
+
+# scientists:
+#   title: Scientists
+#   name: scientists
+#   desc: "The app utilizes ARKit to create an augmented reality experience showcasing notable scientists. Users can scan images to reveal 3D representations, including the scientist's name, biography, and country flag. The app loads data from a JSON file, enhancing user interaction with informative overlays in a visually engaging format."
+#   tags: ["Swift", "SceneKit", "ARKit"]
+#   img: assets/images/project-3.png
+#   status: "Active"
 
 tic-tac-toe:
   title: Tic Tac Toe
-  name: my-hr
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-1.png
+  name: tic-tac-toe
+  desc: "Challenge a friend in this engaging two-player Tic Tac Toe game! Compete for the highest score in each session while enjoying a classic gameplay experience. With simple mechanics, it's perfect for players of all ages looking for a quick and fun challenge."
+  tags: ["Swift", "UIKit"]
+  img: assets/images/projects/tic-tac-toe.png
+  status: "Active"
 
-scientists:
-  title: Scientists
-  name: scientists
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-3.png
-
-movie-mania:
-  title: Movie Mania
-  name: movie-mania
-  desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
-  tags: ["Swift", "API", "Database"]
-  img: assets/images/project-3.png
+# movie-mania:
+#   title: Movie Mania
+#   name: movie-mania
+#   desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
+#   tags: ["Swift", "API", "Database"]
+#   img: assets/images/project-3.png
+#   status: "Active"
   
