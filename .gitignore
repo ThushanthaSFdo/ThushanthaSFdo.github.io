@@ -1,5 +1,14 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build output
+_site/
+
+# Jekyll and Sass caches/metadata
+.jekyll-cache/
 .jekyll-metadata
-vendor
+.sass-cache/
+
+# Ruby/Bundler dependencies (local)
+.bundle/
+vendor/bundle/
+
+# OS/editor noise
+.DS_Store
